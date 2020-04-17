@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+#contactHeader{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#exampleFormControlTextarea1 {
+  height: 200px;
+}
+.form-control {
+  width: 50%;
+  margin: auto;
+}
+
+#return {
+  font-size: 25px;
+}
