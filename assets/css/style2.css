@@ -4,6 +4,9 @@ body {
   background-size: contain;
 }
 
+#navigation {
+  background-color: blueviolet!important;
+}
 #contactHeader {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

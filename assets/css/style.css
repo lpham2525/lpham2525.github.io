@@ -1,84 +1,113 @@
 body {
-  margin: 20px;
+  margin: 0px;
   text-align: center;
   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-pink-romantic-beautiful-cosmetics-psd-layered-master-map-background-material-image_132613.jpg");
   background-size: cover;
 }
 
 #navigation {
-  background-color: rgb(162, 90, 230);
-  color: black;
+  background-color: rgb(162, 90, 230)!important;
+  border: solid black;
   font-size: 20px;
 }
 
-#image {
-  border-radius: 75%;
+.rounded {
+  border-radius: 20%!important;
+  -webkit-border-radius: 20%!important;
+  -moz-border-radius: 20%!important;
+  -ms-border-radius: 20%!important;
+  -o-border-radius: 20%!important;
+  margin: 10px;
+}
+
+.list-group-item {
+  background-color: lightskyblue!important;
+}
+
+.col-8 {
+  background-color: palevioletred;
+  padding: 0px;
+}
+
+h2 {
+  background-color: rgb(162, 90, 230)!important;
+  border: solid black;
+  width: 100%;
 }
 
 #justify {
   text-align: justify;
-}
-
-.rounded {
-  border-radius: 75%;
-  -webkit-border-radius: 75%;
-  -moz-border-radius: 75%;
-  -ms-border-radius: 75%;
-  -o-border-radius: 75%;
+  padding: 15px;
+  font-size: 19px;
 }
 
 .col-4 {
   background-color: teal;
 }
 
+.list-group-flush {
+  background-color: teal;
+}
+
+#bg-warning {
+  margin: 20px 0px 0px 10px;
+}
+
+#bg-success {
+  margin: 20px 0px 0px 0px;
+}
+
+#bg-secondary {
+  margin: 0px 0px 0px 20px;
+}
+
 @media screen and (max-width: 576px) {
   .navbar {
     width: 150px;
   }
-  @media screen and (max-width: 576px) {
-    #image {
-      width: 150px;
-    }
-    @media screen and (max-width: 576px) {
-      .container {
-        width: 150px;
-      }
-      @media screen and (max-width: 576px) {
-        .footer {
-          width: 150px;
-        }
+}
 
-        @media screen and (max-width: 576px) {
-          .row {
-            width: 150px;
-          }
+@media screen and (max-width: 576px) {
+  #image {
+    width: 150px;
+  }
+}
 
- .list-group-flush {
-            background-color: teal;
-          }
+@media screen and (max-width: 576px) {
+  .container {
+    width: 150px;
+  }
+}
 
- h1 {
-            border: solid black;
-            background-color: rgb(162, 90, 230);
-          }
-          h2 {
-            border: solid black;
-            background-color: rgb(162, 90, 230);
-          }
-          footer {
-            width: 100%;
-            background-color: rgb(162, 90, 230);
-            padding: 10px;
-            font-size: 20px;
-            border: solid black;
-            text-align: center;
-            position: absolute;
-            bottom: 0;
-          }
-          #page-container {
-            position: relative;
-            min-height: 100vh;
-          }
-          #content-wrap {
-            padding-bottom: 30px;
-          }
+@media screen and (max-width: 576px) {
+  .footer {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row {
+    width: 150px;
+  }
+}
+
+#footer {
+  width: 100%;
+  background-color: rgb(162, 90, 230)!important;
+  border: solid black;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 30px;
+}
