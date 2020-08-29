@@ -1,17 +1,18 @@
 body {
   text-align: center;
-  background-image: url("https://media.istockphoto.com/photos/distance-love-concept-sending-love-letter-valentines-day-kraft-with-picture-id1082281016");
+  background-image: url("https://marketingland.com/wp-content/ml-loads/2015/12/email_ss_1920.png");
   background-size: contain;
 }
 
 #navigation {
   background-color: blueviolet!important;
 }
+
 #contactHeader {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.paragraph{
+.paragraph {
   font-size: 20px;
 }
 
@@ -28,7 +29,7 @@ body {
   font-size: 25px;
 }
 
-#footer{
+#footer {
   font-size: 20px;
   background-color: blueviolet;
 }
