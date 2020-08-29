@@ -6,6 +6,8 @@ body {
 
 #navigation {
   background-color: blueviolet!important;
+  border: solid black;
+  font-size: 20px;
 }
 
 #contactHeader {
