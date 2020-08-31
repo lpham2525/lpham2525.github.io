@@ -22,8 +22,8 @@ body {
   -ms-border-radius: 20%!important;
   -o-border-radius: 20%!important;
   margin: 10px;
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
 }
 
 .list-group-item {
@@ -33,6 +33,10 @@ body {
 .col-8 {
   background-color: palevioletred;
   padding: 0px;
+}
+
+.col-4 {
+  background-color: palevioletred;
 }
 
 h2 {
@@ -116,6 +120,7 @@ h2 {
   position: absolute;
   bottom: 0;
   height: 2.5rem;
+  margin-top: 20px;
 }
 
 #page-container {
