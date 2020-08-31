@@ -52,15 +52,19 @@ h2 {
 }
 
 #bg-warning {
-  margin: 20px 0px 0px 10px;
+  margin: 20px 0px 0px 20px;
 }
 
 #bg-success {
-  margin: 20px 0px 0px 0px;
+  margin: 20px 20px 0px 0px;
 }
 
 #bg-secondary {
   margin: 0px 0px 0px 20px;
+}
+
+#bg-primary{
+  margin: 0px 20px 0px 0px;
 }
 
 .paragraph {
