@@ -45,7 +45,7 @@ h2 {
   width: 100%;
 }
 
-#justify {
+.col-8 {
   text-align: justify;
   padding: 15px;
   font-size: 19px;
@@ -135,4 +135,18 @@ h2 {
 
 #content-wrap {
   padding-bottom: 30px;
+}
+
+.skills{
+  height: 50%;
+  width: 100%;
+  background-color: skyblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.symbols{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
 }
