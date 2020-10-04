@@ -144,7 +144,7 @@ h2 {
 
 .skills {
   height: 50%;
-  width: 100%;
+  width: auto;
   background-color: skyblue;
   margin-top: 10px;
   margin-bottom: 10px;
