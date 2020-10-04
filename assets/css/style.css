@@ -51,6 +51,11 @@ h2 {
   font-size: 19px;
 }
 
+.card{
+  height: 100px;
+  width: 80px;
+}
+
 #bg-warning {
   margin: 20px 0px 0px 20px;
 }
