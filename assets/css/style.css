@@ -1,9 +1,10 @@
-/* body {
+body {
   margin: 0px;
   text-align: center;
-  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-pink-romantic-beautiful-cosmetics-psd-layered-master-map-background-material-image_132613.jpg");
+  /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-pink-romantic-beautiful-cosmetics-psd-layered-master-map-background-material-image_132613.jpg"); */
+  background-image: url("../images/pink_flowers.jpg");
   background-size: cover;
-} */
+}
 
 #navigation {
   background-color: rgb(162, 90, 230)!important;
@@ -51,7 +52,7 @@ h2 {
   font-size: 19px;
 }
 
-.card{
+.card {
   height: 800px;
   width: 600px;
 }
