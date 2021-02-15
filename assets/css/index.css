@@ -8,7 +8,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../homeImg/night.jpg");
+  background-image: url("../images/night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
