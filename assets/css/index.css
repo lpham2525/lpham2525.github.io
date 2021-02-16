@@ -69,21 +69,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    width: 100%;
-  }
-  header nav {
-    height: auto;
-    width: 100%;
-    padding: 5px;
-    justify-content: center;
-  }
-  header nav a {
-    font-size: 20px;
-  }
-  .header-container {
-    text-align: center;
-  }
   #branding {
     display: block;
     width: 100%;
@@ -121,21 +106,31 @@ body {
   }
 }
 
-<!--navbar-->.navbar {
+/*****************Navbar****************/
+
+.navbar {
   position: fixed;
   z-index: 10;
+  width: 100%;
 }
 
-/****************** Section Two - About Me*****************/
+/********* Section Two - About Me*****/
 
 h1 {
   text-align: center;
-  /* margin-top: 10%; */
   font-size: 60px;
+  margin-top: 10%;
   color: rgb(255, 255, 255);
   font-family: "Lobster", cursive;
   border-bottom: 1px solid rgb(65, 65, 65);
   padding-bottom: 30px;
+}
+
+h2 {
+  font-size: larger;
+  color: lightgray;
+  text-align: center;
+  font-family: "Lobster", cursive;
 }
 
 div.selfie-img img {
@@ -154,7 +149,9 @@ div.selfie-img img {
   -o-border-radius: 20%;
 }
 
-/* Bio info div. profile img and about-me */
+/* About me */
+
+#about-me {}
 
 div.article {
   color: white;
@@ -163,35 +160,28 @@ div.article {
   flex-direction: row;
 }
 
-/* Introduction about me */
-
 div.info {
   padding: 40px;
 }
 
-/***************** Skills ********************/
-
-#skills {
-  text-align: center;
-  border-bottom: 1px solid rgb(65, 65, 65);
-  padding: 50px 0px 50px 0px;
-  margin: 10px 0px 50px 0px;
+#profilePic {
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
-.skills-title {
-  text-align: center;
-  margin-top: 3%;
-  font-size: 60px;
-  color: rgb(255, 255, 255);
-  font-family: "Lobster", cursive;
-  border-bottom: 1px solid rgb(65, 65, 65);
-}
-
-/*Footer*/
-
-#footer {
-  margin-left: auto;
-  margin-right: auto;
+@keyframes stretch {
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
 /*iPad Pro screen*/
@@ -325,6 +315,22 @@ div.info {
 
 /* Techstack Section */
 
+#skills {
+  text-align: center;
+  border-bottom: 1px solid rgb(65, 65, 65);
+  padding: 50px 0px 50px 0px;
+  margin: 10px 0px 50px 0px;
+}
+
+.skills-title {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-family: "Lobster", cursive;
+  border-bottom: 1px solid rgb(65, 65, 65);
+}
+
 .row {
   margin: 10px 0px 10px 0px;
 }
@@ -397,10 +403,6 @@ div.info {
   border: 1px solid #333333;
 }
 
-/* .left{
-  margin-left: 167px;
-} */
-
 .tech {
   width: 64px;
   max-height: 64px;
@@ -446,10 +448,14 @@ div.info {
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.5s;
-  -webkit-transition: ;
-  -moz-transition: ;
-  -ms-transition: ;
-  -o-transition: ;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .tooltip .tooltiptext::after {
@@ -578,9 +584,9 @@ div.info {
   width: 50px;
 }
 
-h2 {
-  font-size: larger;
-  color: lightgray;
-  text-align: center;
-  font-family: "Lobster", cursive;
+/*Footer*/
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
 }
