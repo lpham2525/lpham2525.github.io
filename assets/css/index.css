@@ -1,5 +1,6 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  color: white;
   background: radial-gradient(#2b5876, #4e4376);
   line-height: 2em;
   margin: auto;
@@ -124,13 +125,6 @@ h1 {
   font-family: "Lobster", cursive;
   border-bottom: 1px solid rgb(65, 65, 65);
   padding-bottom: 30px;
-}
-
-h2 {
-  font-size: larger;
-  color: lightgray;
-  text-align: center;
-  font-family: "Lobster", cursive;
 }
 
 div.selfie-img img {
@@ -413,76 +407,7 @@ div.info {
   padding: 5px;
 }
 
-.tech img {
-  width: 64px;
-  max-height: 70px;
-}
-
-.tooltip {
-  position: relative;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #ffddd2;
-  color: #333333;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.5s;
-  -webkit-transition: opacity 0.5s;
-  -moz-transition: opacity 0.5s;
-  -ms-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
 /* Projects */
-
-.projectsSection {
-  padding: 0 1em;
-}
-
-.projectsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.projectHR {
-  text-align: center;
-  width: 80%;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  margin: 1em 15%;
-}
 
 .project {
   display: flex;
@@ -513,10 +438,9 @@ div.info {
 }
 
 .techUsed {
-  /* border-radius: 50%; */
   height: 40px;
   width: 40px;
-  margin: 5px;
+  margin: 10px 20px 0px 0px;
 }
 
 .col-md-6 {
@@ -525,10 +449,6 @@ div.info {
 
 .bold {
   font-weight: bold;
-}
-
-.project-item {
-  margin: auto;
 }
 
 .project-info {
