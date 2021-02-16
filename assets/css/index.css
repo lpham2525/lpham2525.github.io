@@ -8,10 +8,10 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../images/night.jpg");
+  background-image: url("../images/blue.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 800px;
   text-align: center;
   color: white;
 }
@@ -38,7 +38,7 @@ body {
   border: 3px solid white;
 }
 
-/* @keyframes borderBottom {
+@keyframes borderBottom {
   0% {
     width: 0;
     border-bottom: 2px solid rgb(7, 255, 14);
@@ -47,7 +47,7 @@ body {
     width: 100%;
     border-bottom: 2px solid rgb(7, 255, 14);
   }
-} */
+}
 
 .sectionContainer {
   margin: auto;
@@ -151,8 +151,6 @@ div.selfie-img img {
 
 /* About me */
 
-#about-me {}
-
 div.article {
   color: white;
   height: auto;
@@ -165,16 +163,6 @@ div.info {
 }
 
 #profilePic {
-  animation-name: stretch;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-direction: alternate;
-  animation-fill-mode: none;
-  animation-play-state: running;
-}
-
-@keyframes stretch {
   animation-name: stretch;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -333,6 +321,7 @@ div.info {
 
 .row {
   margin: 10px 0px 10px 0px;
+  border-bottom: 1px solid rgb(65, 65, 65);
 }
 
 .projectDiv {
