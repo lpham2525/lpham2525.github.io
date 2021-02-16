@@ -11,7 +11,7 @@ body {
   background-image: url("../images/night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 850px;
   text-align: center;
   color: white;
 }
@@ -520,17 +520,11 @@ div.info {
 }
 
 .col-md-6 {
-  padding: 20px;
+  padding: 50px;
 }
 
 .bold {
   font-weight: bold;
-}
-
-.projectImg {
-  width: 600px;
-  height: 450px;
-  text-align: center;
 }
 
 .project-item {
@@ -539,6 +533,7 @@ div.info {
 
 .project-info {
   padding-left: 10px;
+  padding-right: 5px;
 }
 
 #restaurant {
