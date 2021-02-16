@@ -306,8 +306,8 @@ div.info {
 #skills {
   text-align: center;
   border-bottom: 1px solid rgb(65, 65, 65);
-  padding: 50px 0px 50px 0px;
-  margin: 10px 0px 50px 0px;
+  width: 90%;
+  margin: auto;
 }
 
 .skills-title {
