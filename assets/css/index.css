@@ -56,19 +56,11 @@ body {
   zoom: 1;
 }
 
-@media all and (max-width: 500px) {
-  body {
-    margin-right: 0;
-  }
-}
-
 @media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 640px) {}
 
 @media only screen and (max-width: 330px) {}
-
-/*Navbar*/
 
 .navbar {
   width: 100%;
@@ -310,35 +302,24 @@ div.info {
 
 @media only screen and (max-width: 640px) {
 
-  .section-container {
+  /* .section-container {
     width: auto;
     padding: 0 10px;
-  }
+  } */
   div.profileImg img {
-    height: 300px;
-    width: 300px;
     margin: 25px;
   }
-  div.article {
+  /* div.article {
     margin: 0;
     border: none;
     width: auto;
     height: auto;
-  }
-  div.bio-info {
+  } */
+  /* div.bio-info {
     padding: 0;
-  }
-  div.article p {
-    padding: 0 10px;
-    font-size: 17px;
-    text-align: center;
-  }
+  } */
   div.title h1 {
     margin-top: 35%;
-  }
-  .symbols {
-    height: 50px;
-    width: auto;
   }
   .col-md-6 {
     padding: 10px;
@@ -348,8 +329,8 @@ div.info {
     margin-right: auto;
     margin-left: auto;
   }
-  footer div.footerContainer {
-    text-align: center;
+  .techUsed {
+    margin: 10px 5px 0px 0px;
   }
 }
 
@@ -370,6 +351,6 @@ div.info {
   div.article p {
     padding: 0 5px;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
   }
 }
