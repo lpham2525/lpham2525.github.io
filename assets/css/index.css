@@ -301,25 +301,11 @@ div.info {
 /*mobile responsive*/
 
 @media only screen and (max-width: 640px) {
-
-  /* .section-container {
-    width: auto;
-    padding: 0 10px;
-  } */
-  div.profileImg img {
+  .profileImg {
     margin: 25px;
   }
-  /* div.article {
-    margin: 0;
-    border: none;
-    width: auto;
-    height: auto;
-  } */
-  /* div.bio-info {
-    padding: 0;
-  } */
-  div.title h1 {
-    margin-top: 35%;
+  h1 {
+    margin-top: 25%;
   }
   .col-md-6 {
     padding: 10px;
@@ -335,22 +321,26 @@ div.info {
 }
 
 @media only screen and (max-width: 330px) {
-  div.title h1 {
+  body{
+    margin-right: 0;
+  }
+  .navbar {
+    width: 100%;
+  }
+  h1 {
     margin-top: 35%;
     font-size: 4em;
   }
-  div.profileImg img {
+  profileImg {
     margin-top: 0;
     height: 250px;
     width: 250px;
     margin: 25px;
   }
-  div.article {
-    margin-bottom: 30px;
+  .projectDiv {
+    width: 350px;
   }
-  div.article p {
-    padding: 0 5px;
-    font-size: 15px;
-    text-align: center;
+  #contact {
+    margin-top: 20%;
   }
 }
