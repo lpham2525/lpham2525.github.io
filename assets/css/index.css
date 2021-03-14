@@ -56,12 +56,6 @@ body {
   zoom: 1;
 }
 
-@media only screen and (max-width: 768px) {}
-
-@media only screen and (max-width: 640px) {}
-
-@media only screen and (max-width: 330px) {}
-
 .navbar {
   width: 100%;
 }
@@ -269,30 +263,19 @@ div.info {
   #contact {
     margin-top: 10px;
   }
-}
+} 
 
 /* ----------- iPad Pro ----------- */
 
 /* Portrait and Landscape */
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* .col-md-6{
-    max-width: 100%!important;
-  } */
-  #restaurant {
-    max-width: 50px;
-  }
+
 }
 
 /* Portrait */
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .col-md-6 {
-    /* margin: 0 100px 50px 100px; */
-    /* flex: 0 0 50%; */
-    /* max-width: 100%;
-    flex-direction: row; */
-  }
 }
 
 /* Landscape */
@@ -309,7 +292,7 @@ div.info {
 /*mobile responsive*/
 
 @media only screen and (max-width: 768px) {
-  /* .profileImg {
+  .profileImg {
     height: 300px;
     width: 300px;
     padding: 0;
@@ -335,13 +318,7 @@ div.info {
   .symbols {
     height: 50px;
     width: auto;
-  } */
-  .col-md-6 {
-    max-width: 100%!important;
-  }
-  #restaurant {
-    width: 500px;
-  }
+  } 
   .info {
     margin-top: 10%;
   }
@@ -374,9 +351,6 @@ div.info {
 }
 
 @media only screen and (max-width: 330px) {
-  body {
-    margin-right: 0;
-  }
   .navbar {
     width: 100%;
   }
@@ -389,6 +363,10 @@ div.info {
     height: 250px;
     width: 250px;
     margin: 25px;
+  }
+  .info{
+    text-align: center;
+    margin: 0;
   }
   .projectDiv {
     width: 350px;
