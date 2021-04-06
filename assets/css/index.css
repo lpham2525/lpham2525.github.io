@@ -33,17 +33,6 @@ body {
   border: 3px solid white;
 }
 
-/* @keyframes borderBottom {
-  0% {
-    width: 0;
-    border-bottom: 2px solid rgb(7, 255, 14);
-  }
-  100% {
-    width: 100%;
-    border-bottom: 2px solid rgb(7, 255, 14);
-  }
-} */
-
 .sectionContainer {
   margin: auto;
   width: 90%;
@@ -103,7 +92,7 @@ div.info {
 #skills {
   text-align: center;
   border-bottom: 1px solid rgb(65, 65, 65);
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -209,34 +198,6 @@ div.info {
   height: 530px;
 }
 
-/* #restaurant {
-  max-width: 650px;
-  max-height: 525px;
-  min-height: 150px;
-  min-width: 150px;
-}
-
-#artistaday {
-  max-width: 600px;
-  max-height: 450px;
-  min-height: 200px;
-  min-width: 200px;
-}
-
-#googlebooks {
-  max-width: 655px;
-  max-height: 485px;
-  min-height: 200px;
-  min-width: 200px;
-}
-
-#reactfolio {
-  max-width: 650px;
-  max-height: 830px;
-  min-height: 200px;
-  min-width: 200px;
-} */
-
 /*Contact*/
 
 #contact {
@@ -276,9 +237,9 @@ div.info {
   .projectDiv {
     width: 700px;
   }
-  .artistDiv {
+  /* .artistDiv {
     margin-left: 75px;
-  }
+  } */
   .info {
     text-align: justify;
     font-size: 18px;
@@ -317,12 +278,21 @@ div.info {
 /*mobile responsive*/
 
 @media only screen and (max-width: 768px) {
-  .profileImg {
+  .container{
+    width: 80%;
+  }
+  .main{
+    margin: auto;
+  }
+  div.profileImg img {
     height: 300px;
     width: 300px;
     padding: 0;
     margin-bottom: 0;
     align-content: center;
+  }
+  div.info{
+    padding: 1rem;
   }
   .article {
     display: flex;
@@ -340,6 +310,9 @@ div.info {
   .title h1 {
     margin-top: 20%;
   }
+  #skills{
+    width: 80%;
+  }
   .symbols {
     height: 50px;
     width: auto;
@@ -347,12 +320,37 @@ div.info {
   .info {
     margin-top: 10%;
   }
-  .col-md-6 {
-    width: 700px;
+  #projects{
+    margin-left: 30px;
   }
-  /* #contact {
+  .projectDiv{
+    width: 300px;
+  }
+  #restaurant {
+    width: 300px;
+    height: 200px;
+  }
+  #artistaday {
+    width: 300px;
+    height: 200px;
+  }
+  #googlebooks {
+    width: 300px;
+    height: 200px;
+  }
+  #reactfolio {
+    width: 300px;
+    height: 200px;
+  }
+  div.article{
+    flex-direction: column;
+  }
+  #contact {
     margin-top: 5%;
-  } */
+  }
+  .qcs{
+    margin-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
