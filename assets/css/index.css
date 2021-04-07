@@ -178,7 +178,12 @@ div.info {
   padding-right: 5px;
 }
 
-#restaurant {
+.project-img{
+  width: 650px;
+  height: 500px;
+}
+
+/* #restaurant {
   width: 650px;
   height: 525px;
 }
@@ -196,7 +201,7 @@ div.info {
 #reactfolio {
   width: 650px;
   height: 530px;
-}
+} */
 
 /*Contact*/
 
@@ -323,25 +328,18 @@ div.info {
   #projects{
     margin-left: 30px;
   }
-  .projectDiv{
-    width: 300px;
+  div.projectDiv{
+    width: 200px;
   }
-  #restaurant {
-    width: 300px;
+  .project-img{
+    width: 200px;
     height: 200px;
-  }
-  #artistaday {
-    width: 300px;
-    height: 200px;
-  }
-  #googlebooks {
-    width: 300px;
-    height: 200px;
-  }
-  #reactfolio {
-    width: 300px;
-    height: 200px;
-  }
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
   div.article{
     flex-direction: column;
   }
