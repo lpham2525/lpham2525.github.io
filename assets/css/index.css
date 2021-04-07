@@ -283,6 +283,12 @@ div.info {
 /*mobile responsive*/
 
 @media only screen and (max-width: 768px) {
+  .jumbotron {
+    display: none;
+  }
+  h1{
+    font-size: 3rem;
+  }
   .container{
     width: 80%;
   }
@@ -290,8 +296,8 @@ div.info {
     margin: auto;
   }
   div.profileImg img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     padding: 0;
     margin-bottom: 0;
     align-content: center;
@@ -346,6 +352,9 @@ div.info {
   #contact {
     margin-top: 5%;
   }
+  .sectionContainer{
+    width: 100%;
+  }
   .qcs{
     margin-right: 10px;
   }
@@ -361,11 +370,6 @@ div.info {
   .col-md-6 {
     padding: 10px;
   }
-  /* #restaurant, #artistaday, #googlebooks, #reactfolio {
-    /* width: 350px; 
-    margin-right: auto;
-    margin-left: auto;
-  } */
   .techUsed {
     margin: 10px 5px 0px 0px;
   }
@@ -377,7 +381,7 @@ div.info {
   }
   h1 {
     margin-top: 35%;
-    font-size: 4em;
+    font-size: 3em;
   }
   profileImg {
     margin-top: 0;
