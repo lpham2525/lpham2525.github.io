@@ -8,6 +8,10 @@ body {
   font-size: large;
 }
 
+#topName{
+  margin-left: 15px;
+}
+
 .jumbotron {
   background-image: url("../images/night.jpg");
   background-size: cover;
@@ -87,7 +91,7 @@ div.info {
   padding: 40px;
 }
 
-/* Techstack Section */
+/* Tech Stack Section */
 
 #skills {
   text-align: center;
@@ -178,30 +182,10 @@ div.info {
   padding-right: 5px;
 }
 
-.project-img{
+.project-img {
   width: 650px;
   height: 500px;
 }
-
-/* #restaurant {
-  width: 650px;
-  height: 525px;
-}
-
-#artistaday {
-  width: 650px;
-  height: 450px;
-}
-
-#googlebooks {
-  width: 655px;
-  height: 485px;
-}
-
-#reactfolio {
-  width: 650px;
-  height: 530px;
-} */
 
 /*Contact*/
 
@@ -227,12 +211,12 @@ div.info {
 
 /*iPad Pro screen*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   .col-md-6 {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-  }
+  } 
   div.aboutMe {
     display: flex;
     flex-flow: column;
@@ -241,6 +225,9 @@ div.info {
   }
   .projectDiv {
     width: 700px;
+  }
+  .project-img{
+    width: 500px;
   }
   /* .artistDiv {
     margin-left: 75px;
@@ -271,13 +258,20 @@ div.info {
 
 /* Landscape */
 
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* #artistaday {
-    width: 650px;
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {}
+
+@media only screen and (max-width: 1024px) {
+  /* #projects {
+    margin-left: 0px;
+    margin-right: 10px;
+  } */
+  .project-img {
+    width: 900px;
+    height: 700px;
   }
-  #reactfolio {
-    width: 650px; 
-  }*/
+  .projectDiv {
+    width: 900px;
+  }
 }
 
 /*mobile responsive*/
@@ -286,13 +280,13 @@ div.info {
   .jumbotron {
     display: none;
   }
-  h1{
+  h1 {
     font-size: 3rem;
   }
-  .container{
+  .container {
     width: 80%;
   }
-  .main{
+  .main {
     margin: auto;
   }
   div.profileImg img {
@@ -302,7 +296,7 @@ div.info {
     margin-bottom: 0;
     align-content: center;
   }
-  div.info{
+  div.info {
     padding: 1rem;
   }
   .article {
@@ -321,7 +315,7 @@ div.info {
   .title h1 {
     margin-top: 20%;
   }
-  #skills{
+  #skills {
     width: 80%;
   }
   .symbols {
@@ -331,31 +325,27 @@ div.info {
   .info {
     margin-top: 10%;
   }
-  #projects{
+  /* #projects {
     margin-left: 30px;
-  }
-  div.projectDiv{
+  } */
+  div.projectDiv {
     width: 200px;
   }
-  .project-img{
+  .project-img {
     width: 200px;
     height: 200px;
     border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
 }
-  div.article{
+  div.article {
     flex-direction: column;
   }
   #contact {
     margin-top: 5%;
   }
-  .sectionContainer{
+  .sectionContainer {
     width: 100%;
   }
-  .qcs{
+  .qcs {
     margin-right: 10px;
   }
 }
@@ -375,7 +365,7 @@ div.info {
   }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (min-width: 280px) and (max-width: 330px) {
   .navbar {
     width: 100%;
   }
